@@ -1,0 +1,306 @@
+
+[
+    {
+        "rank" : 1,
+        "title":"Black Panther",
+        "distributor": "Buena Vista",        
+        "gross":"$700,059,566",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 2,
+        "title":"Avengers:Infinity War",
+        "distributor": "Buena Vista",        
+        "gross":"$678,815,482",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 3,
+        "title":"Incredibles 2",
+        "distributor": "Buena Vista",        
+        "gross":"$608,581,744",
+        "genres": "Animation"
+    }, {
+        "rank" : 4,
+        "title":"Jurassic World: Fallen Kingdom",
+        "distributor": "Universal",        
+        "gross":"$417,719,760",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 5,
+        "title":"Aquaman",
+        "distributor": "Warner Bros.",        
+        "gross":"$325,247,042",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 6,
+        "title":"Deadpool 2",
+        "distributor": "Fox",        
+        "gross":"$318,491,426",
+        "genres": "Action"
+    }, {
+        "rank" : 7,
+        "title":"Dr. Seuss' The Grinch (2018)",
+        "distributor": "Universal",        
+        "gross":"$270,534,960",
+        "genres": "Animation"
+    }, {
+        "rank" : 8,
+        "title":"Mission:Impossible - Fallout",
+        "distributor": "Paramount",        
+        "gross":"$220,159,104",
+        "genres": "Action"
+    }, {
+        "rank" : 9,
+        "title":"Ant-Man and the Wasp",
+        "distributor": "Buena Vista",        
+        "gross":"$216,648,740",
+        "genres": "Action "
+    }, {
+        "rank" : 10,
+        "title":"Solo:A Star Wars Story",
+        "distributor": "Buena Vista",        
+        "gross":"$213,767,512",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 11,
+        "title":"Venom (2018)",
+        "distributor": "Sony / Columbia",        
+        "gross":"$213,515,506",
+        "genres": "Action"
+    }, {
+        "rank" : 12,
+        "title":"Bohemian Rhapsody",
+        "distributor": "Fox",        
+        "gross":"$209,264,432",
+        "genres": "Drama"
+    }, {
+        "rank" : 13,
+        "title":"A Star is Born (2018)",
+        "distributor": " Warner Bros.",        
+        "gross":"$208,185,869",
+        "genres": "Music Drama"
+    }, {
+        "rank" : 14,
+        "title":"Ralph Breaks the Internet",
+        "distributor": "Buena Vista",        
+        "gross":"$197,230,984",
+        "genres": "Animation"
+    }, {
+        "rank" : 15,
+        "title":"A Quiet Place",
+        "distributor": "Paramount",        
+        "gross":"$188,024,361",
+        "genres": "Horror Thriller"
+    }, {
+        "rank" : 16,
+        "title":"Spider-Man:Into The Spider-Verse",
+        "distributor": "Sony / Columbia",        
+        "gross":"$176,781,627",
+        "genres": "Animation"
+    }, {
+        "rank" : 17,
+        "title":"Crazy Rich Asians",
+        "distributor": "Warner Bros.",        
+        "gross":"$174,532,921",
+        "genres": "Romantic Comedy"
+    }, {
+        "rank" : 18,
+        "title":"Mary Poppins Returns",
+        "distributor": "Buena Vista",        
+        "gross":"$168,933,344",
+        "genres": "Musical"
+    }, {
+        "rank" : 19,
+        "title":"Hotel Transylvania 3:Summer Vacation",
+        "distributor": "Sony / Columbia",        
+        "gross":"$167,510,016",
+        "genres": "Animation"
+    }, {
+        "rank" : 20,
+        "title":"Fantastic Beasts:The Crimes of Grindelwald",
+        "distributor": "Warner Bros.",        
+        "gross":"$159,362,631",
+        "genres": "Fantasy"
+    }, {
+        "rank" : 21,
+        "title":"Halloween (2018)",
+        "distributor": "Universal",        
+        "gross":"$159,342,015",
+        "genres": "Horror"
+    }, {
+        "rank" : 22,
+        "title":"The Meg",
+        "distributor": "Warner Bros.",        
+        "gross":"$145,443,742",
+        "genres": "Sci-Fi Thriller"
+    }, {
+        "rank" : 23,
+        "title":"Ocean's 8",
+        "distributor": "Warner Bros.",        
+        "gross":"$140,218,711",
+        "genres": "Action / Adventure"
+    }, {
+        "rank" : 24,
+        "title":"Ready Player One",
+        "distributor": "Warner Bros.",        
+        "gross":" $137,690,172",
+        "genres": "Sci-Fi Action"
+    }, {
+        "rank" : 25,
+        "title":"Bumblebee",
+        "distributor": "Paramount",        
+        "gross":"$124,905,470",
+        "genres": "Sci-Fi Action"
+    },{
+        "rank" : 26,
+        "title":"Mamma Mia! Here We Go Again",
+        "distributor": "Universal",        
+        "gross":"$120,634,935",
+        "genres": "Musical"
+    },{
+        "rank" : 27,
+        "title":"The Nun",
+        "distributor": " Warner Bros. (New Line)",        
+        "gross":"$117,450,119",
+        "genres": "Horror"
+    },{
+        "rank" : 28,
+        "title":"Creed II",
+        "distributor": "MGM",        
+        "gross":"$115,570,246",
+        "genres": "Sports Drama"
+    },{
+        "rank" : 29,
+        "title":"Peter Rabbit",
+        "distributor": "Sony / Columbia",        
+        "gross":"$115,253,424",
+        "genres": "Family"
+    },{
+        "rank" : 30,
+        "title":"The Mule",
+        "distributor": "Warner Bros.",        
+        "gross":"$102,152,904",
+        "genres": "Crime Drama"
+    },{
+        "rank" : 31,
+        "title":"The Equalizer 2",
+        "distributor": "Sony / Columbia",        
+        "gross":"$102,084,362",
+        "genres": "Thriller"
+    },{
+        "rank" : 32,
+        "title":"Rampage (2018)",
+        "distributor": "Warner Bros. (New Line)",        
+        "gross":"$101,028,233",
+        "genres": "Action / Adventure"
+    },{
+        "rank" : 33,
+        "title":"A Wrinkle in Time",
+        "distributor": "Buena Vista",        
+        "gross":"$100,478,608",
+        "genres": "Fantasy"
+    },{
+        "rank" : 34,
+        "title":"Fifty Shades Freed",
+        "distributor": "Universal",        
+        "gross":"$100,407,760",
+        "genres": "Romance"
+    },{
+        "rank" : 35,
+        "title":"Disney's Christopher Robin",
+        "distributor": "Buena Vista",        
+        "gross":"$99,215,042",
+        "genres": "Fantasy"
+    },{
+        "rank" : 36,
+        "title":"I Can Only Imagine",
+        "distributor": "Roadside Attractions",        
+        "gross":"$83,482,352",
+        "genres": "Family"
+    },{
+        "rank" : 37,
+        "title":"Smallfoot",
+        "distributor": "Warner Bros.",        
+        "gross":" $83,240,103",
+        "genres": "Animation"
+    },{
+        "rank" : 38,
+        "title":"Night School (2018)",
+        "distributor": "Universal",        
+        "gross":" $77,339,130",
+        "genres": "Comedy"
+    },{
+        "rank" : 39,
+        "title":"The First Purge",
+        "distributor": "Universal",        
+        "gross":"$69,488,745",
+        "genres": "Thriller"
+    },{
+        "rank" : 40,
+        "title":"Game Night",
+        "distributor": "Warner Bros. (New Line)",        
+        "gross":"$69,179,066",
+        "genres": "Action Comedy"
+    },{
+        "rank" : 41,
+        "title":"Book Club",
+        "distributor": "Paramount",        
+        "gross":"$68,566,296",
+        "genres": "Comedy"
+    },{
+        "rank" : 42,
+        "title":"The House With A Clock In Its Walls",
+        "distributor": "Universal",        
+        "gross":"$68,549,695",
+        "genres": "Fantasy"
+    },{
+        "rank" : 43,
+        "title":"Skyscraper",
+        "distributor": "Universal",        
+        "gross":"$68,420,120",
+        "genres": "Action"
+    },{
+        "rank" : 44,
+        "title":"Insidious:The Last Key",
+        "distributor": "Universal",        
+        "gross":"$67,745,330",
+        "genres": "Horror"
+    },{
+        "rank" : 45,
+        "title":"Instant Family",
+        "distributor": "Paramount",        
+        "gross":"$67,363,237",
+        "genres": "Comedy"
+    },{
+        "rank" : 46,
+        "title":"Blockers",
+        "distributor": "Universal",        
+        "gross":"$60,311,495",
+        "genres": "Comedy"
+    },{
+        "rank" : 47,
+        "title":"Pacific Rim Uprising",
+        "distributor": "Universal",        
+        "gross":"$59,874,525",
+        "genres": "Sci-Fi Action"
+    },{
+        "rank" : 48,
+        "title":"Tomb Raider",
+        "distributor": "Warner Bros.",        
+        "gross":"$58,250,803",
+        "genres": "Action / Adventure"
+    },{
+        "rank" : 49,
+        "title":"Maze Runner:The Death Cure",
+        "distributor": "Fox",        
+        "gross":"$58,032,443",
+        "genres": "Sci-Fi Action"
+    },{
+        "rank" : 50,
+        "title":"Green Book",
+        "distributor": "Universal",        
+        "gross":"$57,934,776",
+        "genres": "Comedy / Drama"
+    }
+   
+    
+] 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018 DOMESTIC GROSSES</title>
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+</head>
+<body>
+    
+    <p>Top 50 Most Domestic Grosses Movies</p>
+    
+    <section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label" for="input-text">Text: </label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Enter some text">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head>Search by</head>
+                <br>
+                    <input type="checkbox"  id="rank-box" value =1 onclick="this.value=(this.value-1)*-1" checked>&nbsp;Rank&nbsp;
+                    <input type="checkbox"  id="title-box" value =1 onclick="this.value=(this.value-1)*-1" checked>&nbsp;Movie Title&nbsp;
+                    <input type="checkbox"  id="distributor-box" value =1 onclick="this.value=(this.value-1)*-1" checked>&nbsp;Distributor&nbsp;
+                    <input type="checkbox"  id="gross-box" value =1 onclick="this.value=(this.value-1)*-1" checked>&nbsp;Total Gross&nbsp;
+                    <input type="checkbox"  id="genres-box" value =1 onclick="this.value=(this.value-1)*-1" checked>&nbsp;Genres&nbsp;
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="table-zone">
+        <table id="table" class="table table-bordered">  
+        <thead>  
+                <tr id="thead">  
+                    <th >Rank</th>  
+                    <th >Movie Title</th>
+                    <th >Distributer</th>
+                    <th >Total Gross</th>  
+                    <th >Genres</th>  
+                </tr>  
+        </thead>  
+        </table> 
+    </div> 
+    <footer>
+        <p2>Reference: <a href="https://www.boxofficemojo.com/yearly/chart/?view=releasedate&view2=domestic&yr=2018&sort=gross&order=DESC&p=.htm">Box Office Mojo</a></p2> 
+    </footer>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+        
+    <script>  
+
+    $(document).ready(function(){  
+         $('#submit-btn').click(function(){
+            var input=$('#input-text').val();
+            var rank = $('#rank-box').val();
+            search_table($('#input-text').val());
+    
+            function search_table(value){  
+                $('#table tr').each(function(){  
+                    var found = 'false';  
+                    
+                    $(this).each(function(){   
+
+                        if(($(this).attr("id") == "thead")){
+                            found='true';
+                        }
+                        if(input == ''){
+                            found = 'true';
+                        }
+                        if( $('#rank-box').val()=="1"){
+                            
+                            if($(this).find('td').eq(0).text().toLowerCase().indexOf(value.toLowerCase()) >= 0){
+                                found = 'true';
+                            }
+                        }
+                        if( $('#title-box').val()=="1"){                   
+                            
+                            if($(this).find('td').eq(1).text().toLowerCase().indexOf(value.toLowerCase()) >= 0){
+                                found = 'true';
+                            }
+                        }
+                        if( $('#distributor-box').val()=="1"){
+                            
+                            if($(this).find('td').eq(2).text().toLowerCase().indexOf(value.toLowerCase()) >= 0){
+                                found = 'true';
+                            }
+                        }
+                        if( $('#gross-box').val()=="1"){
+                            
+                            if($(this).find('td').eq(3).text().toLowerCase().indexOf(value.toLowerCase()) >= 0){
+                                found = 'true';
+                            }
+                        }
+                        if( $('#genres-box').val()=="1"){                           
+                            
+                            if($(this).find('td').eq(4).text().toLowerCase().indexOf(value.toLowerCase()) >= 0){
+                                found = 'true';
+                            }
+                        }
+                        if(( $('#genres-box').val()=="0")&&( $('#gross-box').val()=="0")&&
+                        ( $('#distributor-box').val()=="0")&&
+                        ( $('#title-box').val()=="0")&&
+                        ( $('#rank-box').val()=="0")){
+                            console.log(($('#rank-box').val()));
+                            console.log(($('#title-box').val()));
+                            console.log(($('#distributor-box').val()));
+                            console.log(($('#gross-box').val()));
+                            console.log(($('#rank-box').val()));
+
+                            if(($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0)){
+                                found='true';
+                            
+                            }
+                        }
+                        
+                    });
+                  
+                    if(found == 'true')  
+                    {  
+                            $(this).show();  
+                    }  
+                    else  
+                    {  
+                            $(this).hide();  
+                    }  
+                    
+                    
+                });  
+            }  
+            });  
+        })
+    </script>  
+    
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+p{
+    font-size: 50px;
+    color: #C98861;
+    padding-left: 100px
+    
+}
+th {
+    background-color: #B8E5FF;
+  }
+
+
+body{
+    background-color: #CADDE0;
+}
+.table-zone{
+    padding: 2% 5% 5% 5%;
+    background-color: #FFEEEB;
+}
+table{
+    width: 100%;
+    background-color: #000;
+    /* margin: 20% 20% 20% 20%; */
+}
+footer{
+    padding-top: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    background: #FFB8F1;
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+}
