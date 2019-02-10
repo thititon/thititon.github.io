@@ -1,0 +1,92 @@
+/* mystyle.css */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani'); 
+
+a{color: #F4F4F4;}
+
+p{font-size:20px;}
+
+h1{
+	color: black;
+	font-family: 'Rajdhani', sans-serif;
+	margin-bottom: 0px;
+	font-size: 30px
+
+}
+
+div{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+h2{
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 90px
+}
+
+h3,h4{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px
+}
+
+body {
+	 background: #2BABFE;
+	background: -moz-linear-gradient(top, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+	background: -webkit-linear-gradient(top, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+	background: linear-gradient(to bottom, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+}
+
+.page-wrapper{ 
+  	grid-gap: 0px;
+  	background: #2BABFE;
+	background: -moz-linear-gradient(top, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+	background: -webkit-linear-gradient(top, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+	background: linear-gradient(to bottom, #2BABFE 0%, #46C4E0 0%, #164A68 100%);
+  	padding: 4%;
+}
+
+.intro{
+	background-color: transparent;
+	margin-left: 50px;
+}
+
+.preamble{
+	background-color: rgba(255,255,255,0.5);
+	margin:  50px 50px 50px 50px;
+	padding: 20px 40px 40px 50px;
+	margin-left: 0px;
+	-webkit-box-shadow: 2px 4px 17px 2px rgba(0,0,0,0.36); 
+	box-shadow: 2px 4px 17px 2px rgba(0,0,0,0.36);
+}
+
+.explanation,.participation,.benefits,.requirements{
+	background-color: rgba(255,255,255,0.5);
+	margin:  50px 50px 40px 50px;
+	padding: 20px 40px 40px 50px;
+	-webkit-box-shadow: 2px 4px 17px 2px rgba(0,0,0,0.36); 
+	box-shadow: 2px 4px 17px 2px rgba(0,0,0,0.36);
+}
+
+.sidebar{
+	background: rgba(51,55,69,0.5);
+	font-size: 15px;
+	grid-area:side;
+	color: pink;
+}
+
+.select,.archives,.resources{color:pink;}
+
+footer{
+	background-color:transparent;
+	margin:  50px 50px 50px 50px;
+}
+
+@media screen and (min-width:550px) {
+		section.intro 			{ width:70%;}
+		aside.sidebar 			{ position:fixed;right:0; top:0px; width:20%;height: 200% ;padding-left:10px; }
+		.explanation 			{ left:0; width:60%; }
+		.participation 			{ left:0; width:60%; }
+		.preamble	        	{left: 0; width: 86%;}
+		.benefits 				{left:0;width:60% }
+		.requirements 			{ left:0; width:60%}
+}

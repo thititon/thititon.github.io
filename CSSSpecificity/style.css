@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=K2D');
+body{
+	background-color: yellow;
+	padding: 50px;
+	font-size: 20px;
+	font-family: 'K2D', sans-serif;
+
+}
+.css-specificity,
+.calculation,
+.example,
+.reference{
+
+	/*width: 66%;*/
+	background: lightblue;
+	margin-bottom: 10px;
+	padding: 20px 100px 35px 100px;
+	margin-bottom: 20px;
+}
+h1{
+	font-size: 80px
+
+}
+h2,h3,h4,h5{
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-size: 35px;
+}
+
+@media screen and (min-width:550px) {
+}

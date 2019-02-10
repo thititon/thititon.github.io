@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Specificity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>CSS Specificity</h1>
+	</header>
+<div class="page">
+	<div class="css-specificity">
+		<h2>CSS Specificity</h2>
+		&nbsp;&nbsp;&nbsp;ใน Selectorเเต่ละตัวจะมีค่าต่างกัน การเลือกใช้ CSS Selectorนั้นจะเลือกจากตัวที่มีค่ามากที่สุดมาใช้ 
+		<br>
+		แต่หากมีค่าเท่ากันจะเลือกใช้จากอันล่างสุด  
+		ซึ่งเป็นสาเหตุที่ว่า element บางตัวของเรานั้นไม่ได้ใช้ CSS ตามอย่างที่เราคิดว่ามันควรจะเป็น
+	</div>
+
+	<div class="calculation">
+		
+		<h3>วิธีคำนวณค่า 	CSS Specificity</h3>
+		ให้เราคิดว่า spcificity เป็นเหมือนดั่งคะเเนนที่เริ่มจาก 0 เเล้วค่อยๆเพิ่มค่าตามตัวที่เขียนเพิ่ม  จะมีค่าดังนี้
+		<br>
+		1.) 1000 คะเเนน สำหรับ style attribute
+		<br>
+		 &nbsp; &nbsp;&nbsp;เช่น<!--  <h1 style="color:red">Heading</h1> -->
+		 <span>
+		 	<span><</span>
+		 	<span>h1</span>
+		 	<span> </span>
+		 	<span>style</span>
+		 	<span>=</span>
+		 	<span>"color:red"</span>
+		 	<span>></span>
+		 </span>
+		 <br>
+		2.) 100 คะเเนน สำหรับ ID
+		<br>
+		 &nbsp;&nbsp;&nbsp;เช่น #content #id 
+		 <br>
+		3.) 10 คะเเนน สำหรับ class 
+		<br>
+		&nbsp;&nbsp;&nbsp;เช่น .box{ } .class{ }
+		<br>
+		4.) 1 คะเเนน สำหรับ element
+		<br>
+		 &nbsp;&nbsp;&nbsp; เช่น div{ } a{ }
+
+	</div>
+	<div class="example">
+		<h4>ตัวอย่างการคำนวณ </h4>
+
+		div { } 1 คะเเนน จาก div 1 คะเเนน
+		<br>
+		.class { } 10 คะเเนน จาก .class 10 คะเเนน 
+		<br>
+		#content { } 100 คะเเนน จาก #content 100 คะเเนน
+		<br>
+		div a { } 2 คะเเนน จาก div 1 คะเเนน เเละ จาก a 1 คะเเนน
+		<br>
+		.class a { } 11 คะเเนน จาก .class 10 คะเเนน เเละ a จาก 1 คะเเนน
+		<br>
+		#content h1 101 คะเเนน จาก #content 100 คะเเนน เเละ จาก h1 1 คะเเนน
+	</div>
+	<div class="reference">
+			<h5>อ้างอิง</h5>
+	
+		<a href="https://www.designil.com/css-specificity-and-hack.html">https://www.designil.com/css-specificity-and-hack.html</a>
+		<br>
+		
+		<a href="https://www.w3schools.com/css/css_specificity.asp">https://www.w3schools.com/css/css_specificity.asp</a>
+	</div>
+</div>
+	
+</body>
+</html>
